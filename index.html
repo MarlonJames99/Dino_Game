@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="A remake of the Google Chrome T-Rex game!">
@@ -12,14 +13,21 @@
 	<link rel="stylesheet" href="./css/styles.css">
 	<title>Dino Game</title>
 </head>
+
 <body>
-    <main class="world" data-world>
+	<main class="world" data-world>
+		<div id="cloud" data-cloud>
+			<img src="img/cloud.jpg" alt="clouds">
+		</div>
 		<div class="score" data-score>Score: 0</div>
 		<div class="start-screen" data-start-screen>Press Any Key To Start!</div>
+		<div class="game-over-screen hide" data-game-over-screen>Game over!</div>
+		<div class="try-again hide" data-try-again>Press Any Key To Try Again</div>
 		<img src="./img/ground.png" class="ground" data-ground>
 		<img src="./img/ground.png" class="ground" data-ground>
 		<img src="./img/dino-stationary.png" class="dino" data-dino>
 	</main>
 	<script src="./js/scripts.js" type="module"></script>
 </body>
+
 </html>

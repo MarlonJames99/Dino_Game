@@ -1,7 +1,7 @@
 import { incrementCustomProperty, getCustomProperty, setCustomProperty } from "./updateCustomProperty.js";
 
 const dinoElem = document.querySelector("[data-dino]");
-const jumpSpeed = 0.45;
+const jumpSpeed = 0.40;
 const gravity = 0.0015;
 const dinoFrameCount = 2;
 const frameTime = 100;
@@ -27,6 +27,10 @@ export function updateDino(delta, speedScale) {
 
 export function getDinoRect() {
     return dinoElem.getBoundingClientRect();
+}
+
+export function setDinoLose() {
+    dinoElem.src = `../img/dino-lose.png`;
 }
 
 function handleRun(delta, speedScale) {
