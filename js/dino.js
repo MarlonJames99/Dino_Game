@@ -35,13 +35,13 @@ export function setDinoLose() {
 
 function handleRun(delta, speedScale) {
     if (isJumping) {
-        dinoElem.src = `../img/dino-stationary.png`;
+        dinoElem.src = `./img/dino-stationary.png`;
         return;
     }
 
     if (currentFrameTime >= frameTime) {
         dinoFrame = (dinoFrame + 1) % dinoFrameCount;
-        dinoElem.src = `../img/dino-run-${dinoFrame}.png`;
+        dinoElem.src = `./img/dino-run-${dinoFrame}.png`;
         currentFrameTime -= frameTime;
     }
     currentFrameTime += delta * speedScale;
