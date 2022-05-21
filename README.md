@@ -10,6 +10,8 @@ This is a remake of the classic "easter egg" T-Rex game that we can play on Goog
 Press any key and the dino will start running. Press spacebar to jump over the obstacles in your path.<br>
 There's a scorer that keeps increasing with the time and the objective is simply running as long as you can without colliding and getting the higher score you're able to. 
 
+### Game link: https://marlonjames99.github.io/Dino_Game/
+
 ## Tecnologies:
 <div style="display: inline_block">
 <img align="center" alt="HTML logo" height="35" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
